@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="auther" content="Saurabh Tajane" />
+    <meta name="description" content="This page is about me" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text-to-Speech</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Favicon -->
+    <link
+      type="image/png"
+      sizes="16x16"
+      rel="icon"
+      href="./images/icons8-speech-to-text-ios-17-glyph-16.png"
+    />
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href="./images/icons8-speech-to-text-ios-17-glyph-32.png"
+    />
+    <link
+      type="image/png"
+      sizes="96x96"
+      rel="icon"
+      href="./images/icons8-speech-to-text-ios-17-glyph-96.png"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="main-heading">
+        <h1>Text-to-Speech</h1>
+      </div>
+    </header>
+    <main>
+      <aside class="left-language-container">
+        <label for="language">Select language:</label>
+        <select name="language" id="language"></select>
+      </aside>
+      <div class="input-text-box">
+        <textarea id="text" autofocus></textarea>
+        <button id="submit-btn">
+          <i class="fa-solid fa-arrow-up-long"></i>
+        </button>
+      </div>
+      <aside class="right-audio-player-container">
+        <audio id="audio-player" controls></audio>
+      </aside>
+    </main>
+    <footer>
+      <div class="copyright">
+        <p><small>Copyright &copy; Text-to-Speech.</small></p>
+      </div>
+      <div class="social-link">
+        <a
+          class="social"
+          target="_blank"
+          href="https://github.com/KatanaSword/text-to-speech"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          class="social"
+          target="_blank"
+          href="https://www.instagram.com/saurabhtajane/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          class="social"
+          target="_blank"
+          href="https://twitter.com/SaurabhTajane6"
+          ><i class="fa-brands fa-x-twitter"></i
+        ></a>
+        <a
+          class="social"
+          target="_blank"
+          href="https://www.linkedin.com/in/saurabh-tajane-178284226/"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+      </div>
+    </footer>
+    <!-- javaScript link -->
+    <script src="app.js"></script>
+  </body>
+</html>
